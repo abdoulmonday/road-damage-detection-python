@@ -1,0 +1,21 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Données expérimentales
+data/*.mat
+
+# Modèles générés pendant l'entraînement
+models/*.pt
+models/*.pth
+models/*.onnx
+*.onnx
+
+# Résultats générés
+results/
+
+# Fichiers temporaires
+.DS_Store
+Thumbs.db
